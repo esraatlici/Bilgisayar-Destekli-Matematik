@@ -1,0 +1,12 @@
+0<x<=10,f(x)=5x
+10<x<=100,f(x)=5x^2
+x>100,f(x)=0.5x^2
+
+Girilen x ve y koordinatlarında yine girilen bir "r" 
+yarıçapında daire çizdiren fonk yazınız
+x=r*cost
+y=r*sint
+
+
+Girilen x ve y koordinatlarında tur sayısı "n" olan bir spiral çizdiren
+fonksiyon yazınız.spiral yarıçapı açıyla doğru orantılı olarak artmaktadır

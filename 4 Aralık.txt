@@ -1,0 +1,6 @@
+lineer denklem sist.
+determinant
+
+//2x+3y=5 ve 3x+2y=5 denklem
+ sistemini matris kullanarak çöz
+haftaya polinomlar

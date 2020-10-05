@@ -1,0 +1,26 @@
+vektör
+d(3,2) 3satır 2.sütun
+d(3,2)=0 değiştirmek için
+h(1:3) 1.satırın ilk 3 elemanını gösteriri
+
+d(2,:) d matrisnin 2.satırnın tamamını gösterir
+d(:,3) d ..    3 sütununun tamamı
+s=d(1:2,1:2) d matrisnin 1den2 ye satırını ve 1den2 ye sütununu alır (alt matris)
+
+grafik çizme
+t=0:0.1:5;
+x=rand(1,51);
+plot(t,x)
+
+açısal frekansı pi/5 rad/s olan ve genliği 5 olan cos sinyalini çiziniz
+g=5*cos((%pi/5)*t);
+fonksiyonla alan hesanbı
+fonku kaydettikten sonra bir kere execute ya
+fonku kullanmadan öncede bir kre çalıştırmak gerekir
+
+-bir vektörün en büyük elemanı ile en küçük elemanının ortalamsını alan fonksiyonu yazınız
+scinotes de fonc yaz max ve min ile
+
+-Bir silindirin alanını ve hacmini veren fonk yaz
+scinoteslara bak
+

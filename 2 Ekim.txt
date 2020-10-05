@@ -1,0 +1,46 @@
+bdm konuları:
+yardım dosyaları
+clear komutu hafızayı siler
+// yorum için yapılır
+clc tüm kodları siler
+applicationdan scinotes kod yazmak için
+xcos graf matlab gibi
+scinotes da programda değişiklik yapıldığında adının önüne yıldız gelir
+disp (tek tırnak)
+değişken küçük büyük harf duyarlı
+string tek tırnak (h='okul')
+değişkenler
+diziler
+diziler 1 den başlar
+h=[1 2 3 4]
+h(1) yazıp enter==1
+sütün vektörü---> r=[1;2;3]
+variable browserda çift tıklayıp incelenebilir
+r*g çarpım
+vektör boyutu size(f)   (satır sütünu verir)
+--> a=[1 2 3 4]
+ a  = 
+
+   1.   2.   3.   4.
+
+
+--> b=[2 3 4 5]
+ b  = 
+
+   2.   3.   4.   5.
+
+
+--> c=[4 5 6 7]
+ c  = 
+
+   4.   5.   6.   7.
+
+
+--> m=[a;b;c]
+ m  = 
+
+   1.   2.   3.   4.
+   2.   3.   4.   5.
+   4.   5.   6.   7.
+
+aynısı sütün içinde gçerli

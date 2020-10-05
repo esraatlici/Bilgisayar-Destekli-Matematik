@@ -1,0 +1,7 @@
+1) Girilen vektörden kare matris oluşturan fonk. yazınız.
+2) Girilen iki tane 3 boyutlu vektörün iççarpımı (izdüsüm,cross product) yapan fonk yazınız
+ cross product: AxB=(AyBz-AzBy,AzBx-AxBz,AxBy-AyBx);
+
+3) Bir dizi veya vektör içinden belirli bir tamsayıya tam olarak bölünen sayılardan yeni bir vektör oluşturan fonk oluştur
+modulo  kullanılacak)
+modulo(20,6)=2 gibi

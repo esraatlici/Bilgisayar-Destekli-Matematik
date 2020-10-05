@@ -1,0 +1,29 @@
+Nümerik Türev alma
+
+y=sin(x) fonksiyonunun türevini alan 
+komut dizisini yazın
+
+clear;
+x=0:%pi/180:2*%pi;
+y=sin(x);
+for k=2:1:length(x)
+    dydx(k)=(y(k)-y(k-1))/(x(k)-x(k-1));
+end
+plot(y);
+plot(dydx,'r');
+
+
+
+İntegral 
+
+y=6t fonksiyonunun integralini alan 
+komut dizisini yazınız
+
+t=0:0.1:10;
+y=6*t;
+A(1)=0;
+for k=2:1:length(t)
+    A(k)=A(k-1)+((y(k)+y(k-1))*(t(k)-t(k-1)))/2;
+end
+plot(y);
+plot(A,'r');

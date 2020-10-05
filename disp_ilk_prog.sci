@@ -1,0 +1,2 @@
+clear;
+disp("Atlici","Esra")

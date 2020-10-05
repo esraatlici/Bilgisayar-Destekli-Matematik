@@ -1,0 +1,8 @@
+matrisin izini bulan fonk.
+trace(x) sadece kare matrisin izini hesaplar
+-Sürekli bir fonksiyona ait verileri üstten ve alttan sınırlayan fonksiyonu yazınız
+
+fonk_alt_ust_sinirlama
+matris ile de (görüntü işlemde kullanılır)
+fonklar yapılacak
+

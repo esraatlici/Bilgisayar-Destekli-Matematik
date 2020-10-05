@@ -1,0 +1,41 @@
+save komutu
+load komutu
+skaler işlemler
+karekök a^(0.5)
+kupkok a^(1/3)
+sqrt(x) x in karekökü
+; kullanılınca işlem gözükmez
+karmaşık sayılar a=complex(reel,imajiner)
+karmaşık sayılarda d' eşleniğidir
+log10 tabanında 
+%pi böyle tanımlanır
+%e e=2.71
+cos(radyan) !
+asin acos
+cosd(..) derece
+exp(1) e üzeri
+round(x) üste yuvarlar
+floor(x) aşağıya yuvarlar
+ceil(x) yukarı yuvarlar
+abs(x) mutlak değer
+matris işlemleri
+elementer toplma ve çıkarma a=[..] a+3 a  nın bütün elemanlarını toplar
+3./a ile bölünmeli nokkyta ile ama solda a olursa gerek olmaz
+matrisin tersine bak inv(a) kare matris
+matris ve tersinin çarpımı birim matris
+matris çarpımı
+sum(x) matrisin elemanlarının toplamı
+size(x)
+mean(x) matrisin elemanlarının ortalamasını alır
+prod(x) matrisin içindeki elemanları çarpımı
+exp(b) b matrisinin elemanlarının e ile üssü
+b matrisinin elemnalarının karesi b.^2
+1 lerde oluşan matris için ones(satır,sütun)
+0 larda...... zerros(satır,sütun)
+eye(2,2) 2x2 birim matris
+rand(satır,sütun) 0-1 arası rastgele sayı üreten matris
+round(rand(3,4)*10) tamsayı random
+g=0:1:10 g=0 dan 1 er arttırarak 10 kadar matris oluşturur
+t=0:0.01:1 zaman için kull
+aci=-30:5:30
+

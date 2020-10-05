@@ -1,0 +1,83 @@
+Polinomlar
+//2x^2+3x+5 polinomu
+A=[2 3 5]
+roots(A) katsayıları A vektörü olan polinomu oluşturur
+polinom değişkeni roots() ile bulunabilir
+
+
+//x^2-4 polinomunun köklerinin bulunuz
+B=[1 0 -4]   // x in katsayısı 0
+roots(B)
+X=roots(B)
+|-> köklere ait polinom nedir
+poly(X,"x")
+
+
+//kökleri 3,5 ve 7 olan polinomu bulunuz
+A={3 5 7]
+poly(A,"x")
+
+B=[1 -15 71 -105]
+roots(B)
+
+TÜREV ALMA
+A=[1 2 3 4 5]
+diff(A) //oluişan vektör 4 elamnlı olup sıralı elemanları farkı olacak
+
+
+diff(A,2)
+2.dereceden türev almak
+
+
+t=0:0.1:5;
+y=sin(2*%pi*t);
+plot(t,y)
+//  dy/dx
+dy=diff(y);
+dt=diff(t);
+dydt=dy./dt
+plot(dydt)
+
+
+//y=4y^2 ifadesinin zamana karşı türevini alınız
+adım aralığı 0.1 sn
+y=4t^2 ifadesinin zamana karşı türevini alınız
+
+t=0:0.1:5;
+y=4*t^2
+dy=diff(y)
+dt=diff(t)
+dydt=dy./dt;
+plot(dydt)
+
+
+İNTEGRAL ALMA
+function out=k(x)
+out=sin(x);
+endfunction
+
+intg(0,10,k)
+
+
+//y=8t ifadesinin t=0,10 aralığında integralini bulunuz
+
+function y=myfunc(t)
+y=8*t;
+endfunction
+intg(0,10,myfunc)
+
+
+
+//x=10t^3+5t ifadesinin t=0,10 aralığında integralini bul
+function x=myfunc(t)
+x=10*t^3+5t*t;
+endfunction
+intg(0,10,myfunc)
+
+
+
+t=0:0.1:5;
+y=8*t;
+inttrap(t,y);  //trapezoidal kuralı
+
+haftaya->nümerik türev, nümerik integral kurulumu

@@ -1,0 +1,13 @@
+soru= bir matrisin izini bulan fonksiyonu yazın(iz=köşegen elemanlarının toplamı);
+ilişik oprt.
+matınksal oprt.
+ve &, veya|
+else
+for döngüsü
+for içinde if
+fonklara bak
+break: döngü sonlardırma
+while sonnsuz döngü
+ctrl c abort
+iç içe for dögünsüne bak
+
